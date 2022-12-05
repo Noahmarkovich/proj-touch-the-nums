@@ -1,0 +1,86 @@
+h1{
+    text-align: center;
+    font-family: Fantasy, Copperplate;
+    font-size: 40px;
+    color: rgb(67, 108, 20);
+}   
+body {
+    background-image: url("../img/back.jpg");
+    background-color: rgb(171, 212, 179);
+
+
+}
+table{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: 0.5s;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    font-size: 40px;
+    cursor: pointer;
+    
+}
+tbody td:hover {
+    background-color: rgb(239, 239, 133);
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    border-radius: 20%;
+    box-shadow: inset -5px -5px 10px rgba(0, 0, 0, 0.5)
+  }
+  th, td {
+    background-color: #96D4D4;
+  }
+
+/* table{
+    border-color: black;
+    display: block;
+    border: 1;
+} */
+
+.markedCell {
+    background-color: rgb(138, 180, 11);
+}
+
+button{
+    text-align: center;
+    background-color: rgb(183, 250, 223);
+    padding: 10px;
+    border-radius: 10%;
+    cursor: pointer;
+    
+}
+.buttons :hover {
+    background-color: #31d9f7;
+
+}
+.buttons {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    
+}
+
+.restart{
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 56, 51);
+}
+
+.reset{
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
